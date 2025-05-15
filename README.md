@@ -63,15 +63,6 @@
 - JavaFX SDK 21.0.2
 - MySQL Server
 
-### 2. Clone the Repository
-
-
-3. if needed you can edit the pom.xml
-4. <javafx.sdk.path>C:/javafx-sdk-21.0.2</javafx.sdk.path>
-
-5. Run the Application
-# mvn clean javafx:run
-
 📦 Dependencies
 <dependency>
     <groupId>org.openjfx</groupId>
@@ -108,6 +99,40 @@
     <version>3.5.1</version>
 </dependency>
 
+📦 How to Get Started
+Download
+Go to the Releases section of this repository.
+
+Download the latest HardwarePOS.zip file.
+
+Import into NetBeans
+Extract the ZIP file to your preferred location.
+
+Open NetBeans IDE.
+
+Select File > Open Project.
+
+Navigate to the extracted folder and open the project.
+
+Wait for NetBeans to load dependencies and build the project.
+
+Run the project via Run > Run Project or press F6.
+
+but make sure you have the mysql database because the database code in that is just local
+like if you make a mysql workbench and it has password edit the database.java in which you have the password
+package com.hardwarestore.pos;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Database {
+    private static final String URL = "jdbc:mysql://localhost:3306/hardware_store?useSSL=false";
+    private static final String USER = "root";
+    private static final String PASSWORD = ""; - edit if you have password 
+    
  LOGIN 📦
 ![image](https://github.com/user-attachments/assets/9a536f26-7138-4f12-aec2-4b19d03f04c7)
 
@@ -139,22 +164,6 @@ JavaFX | MySQL | FXML Integration
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-### ✅ Next Steps:
-1. Create the repository on GitHub.
-2. Select the **MIT License** from the license dropdown.
-3. Check **“Add a README file”** and paste the above content after creation.
-4. Push your code using:
-   ```bash
-   git init
-   git remote add origin [https://github.com/your-username/HARDWAREPOS.git](https://github.com/abengapala/POS.git)
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-
-
-
-
 
 
 
