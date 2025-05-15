@@ -31,14 +31,23 @@
 ## 📁 Project Structure
  │
 ├── src/
+
 │ ├── main/
+
 │ │ ├── java/
+
 │ │ │ └── com.hardwarestore.pos/
+
 │ │ │ ├── controllers/
+
 │ │ │ ├── model/
+
 │ │ │ └── util/
+
 │ │ └── resources/
+
 │ │ └── com.hardwarestore.pos.view/
+
 │ │ ├── *.fxml (FXML layouts)
 │
 ├── pom.xml (Maven configuration)
