@@ -6,7 +6,7 @@
 
 ## 🚀 Features
 
-- 🔐 Login/Logout system with user roles (Admin, Customer, POS Clerk)
+- 🔐 Login/Logout system with user roles (Admin, POS Clerk)
 - 📦 Product and inventory management
 - 🧾 Receipt generation and order tracking
 - 👥 User management (CRUD for accounts)
