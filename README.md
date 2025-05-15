@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push your code using:
    ```bash
    git init
-   git remote add origin https://github.com/your-username/HARDWAREPOS.git
+   git remote add origin [https://github.com/your-username/HARDWAREPOS.git](https://github.com/abengapala/POS.git)
    git add .
    git commit -m "Initial commit"
    git push -u origin main
